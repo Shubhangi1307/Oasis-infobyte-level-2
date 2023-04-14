@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar
+{
+    background-color:rgba(223, 214, 214, 0.932);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ese-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.934);
+}
+.main
+{
+    /*background-color: yellow;*/
+    width: 90vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgb(176, 115, 115);*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display:flex;
+    justify-content:space-around;
+}
+.devInfo
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+.hello{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 23px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img
+{
+    height: 58vh;
+
+}
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    padding-bottom: 23%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
+    margin: 0 88px;
+}
+.contactform h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    text-align: center; 
+    background-color: antiquewhite;
+}
+.contactform form div{
+    padding: 15px 0;
+    display :flex;
+    flex-direction: column;
+
+}
+.contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+
+}
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;
+}
+#form-check{
+    flex-direction: row;
+    
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+.blogContainer h1{
+    margin: 20px;
+    color: red;
+    font-weight: bold;
+}
+.blogContainer h4{
+    margin: 10px;
+    color: rgb(72, 59, 59);
+    font-weight: bold;
+}
+.blogContainer p{
+    color: rgb(155, 85, 85);
+    font-weight: bold;
+}
+.blogContainer h3{
+    margin: 20px;
+    color: red;
+    font-weight: bold;
+}
+.blogContainer{
+    background-color: beige;
+    margin: 0 20px;
+}
+.intro p{
+    color: rgb(155, 85, 85);
+    font-weight: bold;
+    background-color: aqua;
+}
+.intro h2{
+    margin: 20px;
+    color: red;
+    font-weight: bold;
+}
+.intro{
+    background-color: azure;
+    margin: 0 20px;
+    
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+}
+.hundered{
+    width: 265px;
+    background-color: blueviolet;
+}
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+.t5{
+    width: 75px;
+    background-color: yellow;
+}
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 10px;
+}
+.cross{
+   margin-left: 185px;
+   margin-top: 10px;
+}
+
+@media (max-width:1615px)
+{
+    .devPic{
+        display: none;
+    }
+}
